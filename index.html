@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WEATHER APP 2</title>
+
+
+</head>
+<script src="https://kit.fontawesome.com/8e3855ccc6.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="container">
+
+        <div class="search">
+            <input type="text" class="input" placeholder="Enter the city">
+            <button>
+                <img class="search-icon" src="./images/search.png">
+            </button>
+
+
+            <div class="error">
+                <p>That is not a City</p>
+            </div>
+
+            <div class="empty">
+                <p>Enter a City</p>
+                <img src="./images/waiting.jpg" class="waiting">
+            </div>
+
+        </div>
+        <div class="weather">
+            <div class="temperature">
+                <h2 class="city">New York</h2>
+
+                <p class="temp">22°</p>
+            </div>
+            <p class="info">Clear</p>
+
+
+
+            <div class="details">
+
+
+                <div class="humidity">
+                    <p> <i class="fa-solid fa-water"></i> Humidity</p>
+                    <span class="hum">65%</span>
+
+                </div>
+
+                <div class="wind">
+                    <p><i class="fa-solid fa-wind"></i> wind </p>
+                    <span class="wind-speed">2.4 kmh</span>
+                </div>
+                <div class="real-feel">
+                    <p> <i class="fa-solid fa-temperature-three-quarters"></i> Real feel </p>
+
+                    <span class="real">22°</span>
+                </div>
+
+
+
+                <div class="pressure">
+                    <p><i class="fa-solid fa-temperature-arrow-down"></i> Pressure </p>
+                    <span class="press">1013mbar</span>
+
+                </div>
+
+
+            </div>
+
+            <div class="icon-weather">
+                <img class="img-icon-weather" src="./images/clear.png">
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

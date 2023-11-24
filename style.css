@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(59, 57, 57);
+}
+
+.container {
+  max-height: 550px;
+  width: 90%;
+  max-width: 375px;
+  color: white;
+  background: linear-gradient(135deg, #00feba, #b6aee7);
+  margin: 100px auto 0;
+  padding: 40px 15px;
+  text-align: center;
+  border-radius: 0 25px 0;
+  border: none;
+}
+
+.input {
+  border-radius: 20px;
+  height: 30px;
+  width: 80%;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  color: #2b6457;
+  background: white;
+  border: none;
+  font-size: medium;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: beige;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  height: 16px;
+  width: 16px;
+}
+
+button:active {
+  transform: scale(120%);
+}
+
+.temperature {
+  font-weight: 500;
+  font-size: 65px;
+  margin-top: 40px;
+  color: #2b6457;
+}
+
+span {
+  font-size: 20px;
+}
+
+.city {
+  font-size: 30px;
+}
+
+.info {
+  font-size: 24px;
+  color: #2b6457;
+  padding-bottom: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.fa-water {
+  font-size: 15px;
+}
+.fa-temperature-three-quarters {
+  font-size: 15px;
+}
+.fa-wind {
+  font-size: 15px;
+}
+.fa-temperature-arrow-down {
+  font-size: 15px;
+}
+
+.humidity {
+  width: 100px;
+  height: 50px;
+  border: none;
+  margin-bottom: 5px;
+  color: #2b6457;
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00feba, #b6aee7);
+  border-radius: 25px 0;
+  border: 0.5px solid rgb(192, 249, 79);
+}
+
+.real-feel {
+  border: none;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 50px;
+  color: #2b6457;
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00feba, #b6aee7);
+  border-radius: 25px 0;
+  border: 0.5px solid rgb(192, 249, 79);
+}
+
+.wind {
+  border: none;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 50px;
+  color: #2b6457;
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00feba, #b6aee7);
+  border-radius: 0 25px 0;
+  border: 0.5px solid rgb(192, 249, 79);
+}
+
+.pressure {
+  border: none;
+  width: 100px;
+  height: 50px;
+  color: #2b6457;
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00feba, #b6aee7);
+  border-radius: 0 25px 0;
+  border: 0.5px solid rgb(192, 249, 79);
+}
+
+.details {
+  margin-top: 30px;
+}
+
+.icon-weather img {
+  position: relative;
+  bottom: 220px;
+  left: 60px;
+  border-left: 2.5px solid #2b6457;
+}
+
+.error {
+  color: #2b6457;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  display: none;
+}
+.waiting {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.empty {
+  color: #2b6457;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+  display: none;
+}
