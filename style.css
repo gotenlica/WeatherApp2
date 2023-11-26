@@ -60,7 +60,7 @@ button:active {
 }
 
 span {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .city {
@@ -76,13 +76,13 @@ span {
 }
 
 .fa-water {
-  font-size: 15px;
+  font-size: 12px;
 }
 .fa-temperature-three-quarters {
   font-size: 15px;
 }
 .fa-wind {
-  font-size: 15px;
+  font-size: 12px;
 }
 .fa-temperature-arrow-down {
   font-size: 15px;
